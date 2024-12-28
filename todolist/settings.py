@@ -67,7 +67,7 @@ DATABASES = {
         "USER": os.getenv("USER", "app_user"),
         "PASSWORD": os.getenv("PASSWORD", "1234"),
         "HOST": os.getenv("HOST", "mysql"),  # Значення за замовчуванням — 'mysql'
-        "PORT": os.getenv("PORT", ""),  # Якщо порт не вказано, використовується MySQL за замовчуванням (3306).
+        "PORT": os.getenv("PORT", "3306"),  # Якщо порт не вказано, використовується MySQL за замовчуванням (3306).
     }
 }
 
